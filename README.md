@@ -1,3 +1,4 @@
+![image](https://github.com/abu-baasit/AirBnB_clone/assets/132352758/73a2824f-0c1a-4ce1-9a27-35f1d0bbc14f)
 # AirBnB clone - The console
 
 ## Background Context
