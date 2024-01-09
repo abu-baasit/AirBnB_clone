@@ -1,6 +1,6 @@
-AirBnB clone - The console
+# AirBnB clone - The console
 
-Background Context
+## Background Context
 
 It involves Creation of a command interpreter(Cmd) to manage the hbnb projects
 The AirBnB clone project is a step towards building first full web application: the AirBnB clone. This first step is very important because its a foundation which the following project will be built upon: HTML/CSS templating, database storage, API, front-end integration…
