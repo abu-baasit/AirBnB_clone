@@ -45,4 +45,3 @@ All tests should also pass in non-interactive mode: $ echo "python3 -m unittest 
 
 ### overview / Graphical Representation of the Project
 ![image](https://github.com/abu-baasit/AirBnB_clone/assets/132352758/776fe33e-35e0-4f04-a41a-da01023bfc3b)
-
