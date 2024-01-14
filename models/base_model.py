@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 '''
 This is a BaseModel class that defines all common attributes/methods
 for other classes
@@ -42,7 +41,7 @@ class BaseModel:
 
     def __str__(self):
         '''
-        String reprsentation
+        String representation
         '''
         return '[{}] ({}) {}'.format(
             type(self).__name__, self.id, self.__dict__)
