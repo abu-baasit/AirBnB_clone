@@ -3,9 +3,9 @@
 This is a BaseModel class that defines all common attributes/methods
 for other classes
 '''
+import models
 from uuid import uuid4
 from datetime import datetime
-import models
 
 
 class BaseModel:
@@ -21,7 +21,7 @@ class BaseModel:
             for key, value in kwargs.items():
                 if key != '__class__':
                     if key in ['created_at', 'updated_at']:
-                        value = datetime.strptime{value,
+                        value = datetime.strptime(value,
                                                   '%Y-%m-%dT%H:%M:%S.%f')
                     setattr(self, key, value)
         else:
