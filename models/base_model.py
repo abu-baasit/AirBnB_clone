@@ -29,14 +29,14 @@ class BaseModel:
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
             self.save()
-            storage.new(self)
+            models.storage.new(self)
 
     def save(self):
         '''
         Update public instance with current datetime
         '''
         self.updated_at = datetime.now()
-        storage.save()
+        models.storage.save()
 
     def __str__(self):
         '''
