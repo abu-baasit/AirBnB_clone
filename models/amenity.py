@@ -9,4 +9,5 @@ class Amenity(BaseModel):
     '''
     Amenity class inherits from BaseModel only the name attribute
     '''
+
     name = ''
