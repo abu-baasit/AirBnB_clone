@@ -7,7 +7,8 @@ from models.base_model import BaseModel
 
 class Place(BaseModel):
     '''
-    Place class inherits from BaseModel with the below listed attributes with strings,int and float variables
+    Place class inherits from BaseModel with the below
+    listed attributes with strings,int and float variables
     '''
     city_id = ''
     user_id = ''
@@ -20,10 +21,3 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
-
-
-def __init__(self, *args, **kwargs):
-    """
-    init
-    """
-    super().__init__(*args, **kwargs)

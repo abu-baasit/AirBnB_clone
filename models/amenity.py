@@ -9,11 +9,5 @@ class Amenity(BaseModel):
     '''
     Amenity class inherits from BaseModel only the name attribute
     '''
+
     name = ''
-
-
-def __init__(self, *args, **kwargs):
-    """
-    init
-    """
-    super().__init__(*args, **kwargs)
