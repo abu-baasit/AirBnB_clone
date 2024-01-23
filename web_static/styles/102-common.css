@@ -2,18 +2,31 @@
 /* reset css */
 /****************************************************************************/
 *{
+<<<<<<< HEAD
 margin: 0;
 padding: 0;
 list-style: none;
 text-decoration: none;
 border: none;
 outline: none;
+=======
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 /****************************************************************************/
 /* common styles */
 /****************************************************************************/
 html {
+<<<<<<< HEAD
 box-sizing: border-box;
+=======
+  box-sizing: border-box;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 /****************************************************************************/
@@ -23,6 +36,7 @@ box-sizing: border-box;
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) */
 body {
+<<<<<<< HEAD
 z-index: 0;
 font-size: 14px;
 font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -40,6 +54,25 @@ display: flex;
 flex-direction: column;
 flex-grow: 1;
 margin: 2rem auto;
+=======
+  z-index: 0;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  color: #484848;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span {
+	color: #000000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 2rem auto;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -53,8 +86,15 @@ margin: 2rem auto;
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+<<<<<<< HEAD
 body {
 max-width: 1920px;
 margin: 0 auto;
 }
+=======
+	body {
+		max-width: 1920px;
+		margin: 0 auto;
+	}
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }

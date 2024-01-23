@@ -1,4 +1,5 @@
 .places {
+<<<<<<< HEAD
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -89,11 +90,103 @@ background-image: url(../images/icon_bed.png);
 
 .number_bathrooms {
 background-image: url(../images/icon_bath.png)
+=======
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: -1;
+}
+
+.places article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  border: 1px solid #FF5A5F;
+  box-sizing: border-box;
+}
+
+.places h1 {
+  width: 100%;
+  font-size: 30px;
+  padding-left: 20px;
+  margin: 10px auto auto;
+}
+
+.places h2 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+/* ************************************************** */
+/* article information */
+/* ************************************************** */
+
+/* circle with price */
+.article_places_header {
+  width: 100%;
+  display: flex;
+}
+
+.price_by_night {
+    min-width: 60px;
+    height: 60px;
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/* ******************************************/
+/* information box with icons */
+/* ******************************************/
+
+.information {
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.user {
+  padding: 20px 0 5px;
+}
+.user b, p {
+  margin: 0;
+  padding: 0;
+}
+
+/***********/
+/* icons   */
+
+.max_guest {
+  background-image: url(../images/guest.png);
+}
+
+.number_rooms {
+  background-image: url(../images/bedroom.png);
+}
+
+.number_bathrooms {
+  background-image: url(../images/bathroom.png)
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 .max_guest,
 .number_rooms,
 .number_bathrooms {
+<<<<<<< HEAD
 width: 100px;
 background-repeat: no-repeat;
 display:flex;
@@ -111,16 +204,40 @@ text-align:center;
 margin-top: 40px;
 width: 100%;
 height: inherit;
+=======
+  width: 100px;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column-reverse;
+  background-position-x: center;
+  text-align:center;
+}
+
+/*******************************************/
+/* more information */
+/*******************************************/
+.places .amenities,
+.places .reviews {
+  margin-top: 40px;
+  width: 100%;
+  height: inherit;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 .places .amenities ul,
 .places .reviews ul {
+<<<<<<< HEAD
 list-style-type: none;
 padding: 0;
+=======
+  list-style-type: none;
+  padding: 0;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 .places .amenities h2,
 .places .reviews h2 {
+<<<<<<< HEAD
 font-size: 16px;
 text-align: left;
 border-bottom: 1px solid #DDDDDD;
@@ -153,14 +270,55 @@ background-image: url(../images/icon_tv.png);
 }
 .places_amenities_wifi {
 background-image: url(../images/icon_wifi.png);
+=======
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.places .reviews h3 {
+  font-size: 14px;
+}
+
+.places .reviews p {
+  font-size: 12px;
+}
+/*******************************************/
+/* amenities icons */
+/*******************************************/
+.places .amenities ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  margin-bottom: 10px;
+  align-items: end;
+  }
+
+.places_amenities_pet_friendly {
+  background-image: url(../images/icon_pets.png);
+}
+.places_amenities_tv {
+  background-image: url(../images/icon_tv.png);
+}
+.places_amenities_wifi {
+  background-image: url(../images/icon_wifi.png);
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
 
 .places_amenities_pet_friendly,
 .places_amenities_tv,
 .places_amenities_wifi {
+<<<<<<< HEAD
 background-size: cover;
 background-repeat: no-repeat;
 width: 20px;
 height: 20px;
 display: inline-block;
+=======
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+>>>>>>> dade996484a23719532b34195e69876331c1101d
 }
